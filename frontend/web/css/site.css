@@ -1,0 +1,54 @@
+.main-image {
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+main {
+    margin-top: 85px;
+}
+
+.coach-info {
+    vertical-align: middle;
+    z-index: 20;
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: 0 top;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.coach-image {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: calc(100 - 86px);
+}
+
+.coach {
+    width: 600;
+    height: 737;
+}
+
+.content {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    /* margin: 100px; */
+}
+
+.user-icon {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.testimunial {
+    text-align: center;
+}
